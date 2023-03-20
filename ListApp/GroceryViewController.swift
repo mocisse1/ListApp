@@ -105,6 +105,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         newItem.name = name
         newItem.date = Date()
         getAllItems()
+        print(name)
         do {
             try context.save()
         }
